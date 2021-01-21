@@ -21,6 +21,10 @@ container.addEventListener("mouseenter",(e)=>{
  card.style.transition = "none";
  //Popout
  title.style.transform ="translateZ(150px)";
+ tur.style.transform ="translateZ(200px) rotateZ(-20deg)";
+ description.style.transform ="translateZ(125px)";
+ tips.style.transform ="translateZ(100px)";
+ purchase.style.transform ="translateZ(75px)";
 });
 // animate out 
 container.addEventListener("mouseleave", (e)=>{
@@ -28,4 +32,8 @@ container.addEventListener("mouseleave", (e)=>{
     card.style.transform = `rotateY(0deg) rotateX(0deg)`;
 // Popback
 title.style.transform ="translateZ(0px)";
+tur.style.transform ="translateZ(0px) rotateZ(0deg)";
+ purchase.style.transform ="translateZ(0px)";
+ description.style.transform ="translateZ(0px)";
+ tips.style.transform ="translateZ(0px)";
 }); 
