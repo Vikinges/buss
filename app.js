@@ -1,3 +1,17 @@
+// make Button JS 
+btnski = document.createElement('button');
+btnski.id='ski';
+
+btnski.onclick=function () {
+    alert('you are sure whant tu go på ski ? ringer 91903516');
+}
+btnski.textContent='på ski';
+document.body.appendChild(btnski);
+
+
+const buttonsTips=document.getElementById("tips");
+console.log(buttonsTips);
+
 // movement animation to happen 
 const card = document.querySelector('.card');
 const container = document.querySelector('.container');

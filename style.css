@@ -1,4 +1,4 @@
-* {
+* , #ski{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -63,12 +63,15 @@ color: #858585;
 font-weight: lighter;
 transition: all 0.75s ease-out;
 }
-.tips {
+.tips , #ski  {
     display: flex;
     justify-content: space-between; 
     transition: all 0.75s ease-out;
 }
-.tips button{
+
+
+
+.tips button , #ski {
     padding: 0.5rem 2rem;
     background: none;
     border: none;
@@ -77,8 +80,8 @@ transition: all 0.75s ease-out;
     cursor: pointer;
     font-weight: bold;
     color: #858585;
-
 }
+
 button.active{
 background: #858585;
 color: azure;
